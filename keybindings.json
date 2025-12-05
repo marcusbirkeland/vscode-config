@@ -145,17 +145,8 @@
     "args": {
       "commands": [
         "workbench.action.toggleMaximizedPanel",
-        "workbench.action.terminal.focus",
         "workbench.action.terminal.new",
-        {
-          "command": "workbench.action.terminal.sendSequence",
-          "args": { "text": "clear\u000D" }
-        },
 
-        {
-          "command": "workbench.action.terminal.sendSequence",
-          "args": { "text": "cls\u000D" }
-        },
         {
           "command": "workbench.action.terminal.sendSequence",
           "args": { "text": "lazygit\u000D" }
