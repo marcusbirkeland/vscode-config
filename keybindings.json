@@ -146,6 +146,7 @@
       "commands": [
         "workbench.action.toggleMaximizedPanel",
         "workbench.action.terminal.focus",
+        "workbench.action.terminal.new",
         {
           "command": "workbench.action.terminal.sendSequence",
           "args": { "text": "clear\u000D" }
@@ -171,6 +172,7 @@
           "command": "workbench.action.terminal.sendSequence",
           "args": { "text": "q" }
         },
+        "workbench.action.terminal.kill",
         "workbench.action.toggleMaximizedPanel"
       ]
     },
@@ -179,5 +181,16 @@
   {
     "key": "ctrl+shift+m",
     "command": "workbench.action.toggleMaximizedPanel"
+  },
+  {
+    "key": "ctrl+shift+n",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.closeSidebar",
+        "workbench.action.closePanel",
+        "workbench.action.closeAuxiliaryBar"
+      ]
+    }
   }
 ]
