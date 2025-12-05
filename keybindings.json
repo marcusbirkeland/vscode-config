@@ -179,6 +179,23 @@
     },
     "when": "panelMaximized"
   },
+
+  {
+    "key": "ctrl+shift+q",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "q" }
+        },
+        "workbench.action.terminal.kill",
+        "workbench.action.toggleMaximizedPanel",
+        "workbench.action.focusActiveEditorGroup"
+      ]
+    },
+    "when": "panelMaximized"
+  },
   {
     "key": "ctrl+shift+m",
     "command": "workbench.action.toggleMaximizedPanel"
