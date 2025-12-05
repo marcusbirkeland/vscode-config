@@ -255,5 +255,6 @@
       "commands": ["workbench.action.openRecent"]
     }
   ],
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "workbench.panel.showLabels": false
 }
