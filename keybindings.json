@@ -146,7 +146,6 @@
       "commands": [
         "workbench.action.toggleMaximizedPanel",
         "workbench.action.terminal.new",
-
         {
           "command": "workbench.action.terminal.sendSequence",
           "args": { "text": "lazygit\u000D" }

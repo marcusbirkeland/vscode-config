@@ -261,6 +261,10 @@
           "args": { "text": "lazygit\u000D" }
         }
       ]
+    },
+    {
+      "before": ["leader", "u", "u"],
+      "commands": ["workbench.action.files.revert"]
     }
   ],
   "workbench.activityBar.location": "hidden",
