@@ -13,6 +13,7 @@
     "command": "-cursorHome",
     "when": "textInputFocus"
   },
+
   {
     "key": "ctrl+alt+right",
     "command": "-workbench.action.moveEditorToNextGroup"
@@ -119,5 +120,64 @@
   {
     "key": "ctrl+alt+z",
     "command": "workbench.action.toggleZenMode"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "workbench.action.chat.open",
+    "when": "!auxiliaryBarVisible"
+  },
+  {
+    "key": "ctrl+shift+h",
+    "command": "workbench.view.scm"
+  },
+  // SOURCE CONTROL
+  {
+    "key": "ctrl+shift+9",
+    "command": "git.sync"
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.toggleMaximizedPanel",
+        "workbench.action.terminal.focus",
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "clear\u000D" }
+        },
+
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "cls\u000D" }
+        },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "lazygit\u000D" }
+        }
+      ]
+    }
+  },
+  {
+    "key": "ctrl+shift+g",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "q" }
+        },
+        "workbench.action.toggleMaximizedPanel"
+      ]
+    },
+    "when": "panelMaximized"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "workbench.action.toggleMaximizedPanel"
   }
 ]
