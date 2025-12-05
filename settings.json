@@ -221,7 +221,7 @@
       "commands": ["workbench.action.files.save"]
     },
     {
-      "before": ["<leader>", "a"],
+      "before": ["<leader>", "a", "a"],
       "commands": ["workbench.action.toggleAuxiliaryBar"]
     },
     {
@@ -275,6 +275,10 @@
     {
       "before": ["S-<CR>"],
       "commands": ["editor.action.insertLineAfter"]
+    },
+    {
+      "before": ["<leader>", "a", "y"],
+      "commands": ["chatEditor.action.acceptAllEdits"]
     }
   ],
   "workbench.activityBar.location": "hidden",
