@@ -265,6 +265,16 @@
     {
       "before": ["leader", "u", "u"],
       "commands": ["workbench.action.files.revert"]
+    },
+
+    {
+      "before": ["<CR>"],
+      "commands": ["editor.action.insertLineBefore"]
+    },
+
+    {
+      "before": ["S-<CR>"],
+      "commands": ["editor.action.insertLineAfter"]
     }
   ],
   "workbench.activityBar.location": "hidden",
