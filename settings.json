@@ -1,0 +1,259 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "hidefiles.version": "2.0.0",
+  "git.pruneOnFetch": true,
+  "update.enableWindowsBackgroundUpdates": false,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "git.autofetch": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.eol": "\n",
+  "editor.formatOnPaste": false,
+  "editor.tabSize": 2,
+  "[rs]": {
+    "editor.formatOnSave": false
+  },
+  "[sql]": {
+    "editor.defaultFormatter": "mtxr.sqltools",
+    "editor.formatOnSave": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-windows": "C:\\Users\\MC\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
+    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\MC\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+  },
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorTheme": "Bearded Theme Monokai Black",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "security.workspace.trust.untrustedFiles": "open",
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "cmake.configureOnOpen": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "go.toolsManagement.autoUpdate": true,
+  "dart.flutterSdkPath": "C:\\Users\\birke\\flutter",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "diffEditor.ignoreTrimWhitespace": false
+  },
+  "[java]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    },
+    "editor.defaultFormatter": "mngrm3a.vscode-google-java-formatter"
+  },
+
+  "java.format.settings.url": "https://raw.githubusercontent.com/mbbirkel/java-style-google/refs/heads/main/GoogleStyle.xml",
+  "java.format.settings.profile": "GoogleStyle",
+  "java.completion.importOrder": ["com", "#"],
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never"
+  },
+  "zig.path": "c:\\Users\\MC\\AppData\\Roaming\\Code\\User\\globalStorage\\ziglang.vscode-zig\\zig_install\\zig.exe",
+  "zig.zls.path": "c:\\Users\\MC\\AppData\\Roaming\\Code\\User\\globalStorage\\ziglang.vscode-zig\\zls_install\\zls.exe",
+  "explorer.confirmDelete": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "redhat.telemetry.enabled": false,
+  "git.confirmSync": false,
+  "svelte.enable-ts-plugin": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "cSpell.enabled": false,
+  "editor.mouseWheelScrollSensitivity": 2,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "svelte.plugin.svelte.format.config.printWidth": 90,
+  "svelte.plugin.svelte.format.config.singleQuote": true,
+  "remote.portsAttributes": {
+    "3000": {
+      "protocol": "https"
+    }
+  },
+  "workbench.editorAssociations": {
+    "git-rebase-todo": "gitlens.rebase"
+  },
+  "github.copilot.chat.generateTests.codeLens": true,
+  "github.copilot.chat.search.semanticTextResults": true,
+  "github.copilot.chat.inlineChatHint.enabled": true,
+  "github.copilot.chat.inlineChatCompletionTrigger.enabled": true,
+  "Notes.notesLocation": "C:\\Users\\birke\\Documents\\notes",
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000"
+  },
+  "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
+  "window.titleBarStyle": "custom",
+  "github.copilot.chat.editor.temporalContext.enabled": true,
+  "githubPullRequests.createOnPublishBranch": "never",
+  "githubPullRequests.pullBranch": "never",
+  "github.copilot.chat.edits.temporalContext.enabled": true,
+  "github.copilot.chat.languageContext.typescript.enabled": true,
+  "tailwindCSS.emmetCompletions": true,
+  "github.copilot.chat.codesearch.enabled": true,
+  "github.copilot.chat.completionContext.typescript.mode": "on",
+  "github.copilot.chat.byok.ollamaEndpoint": "http://localhost:11434",
+  "eslint.enable": true,
+  "workbench.startupEditor": "none",
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.chat.agent.thinkingTool": true,
+  "github.copilot.chat.languageContext.inline.typescript.enabled": true,
+  "github.copilot.chat.languageContext.fix.typescript.enabled": true,
+  "inlineChat.enableV2": true,
+  "inlineChat.hideOnRequest": true,
+  "git.openRepositoryInParentFolders": "never",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "yaml.schemas": {
+    "c:\\Users\\birke\\.vscode\\extensions\\continue.continue-1.0.10-win32-x64\\config-yaml-schema.json": [
+      ".continue/**/*.yaml"
+    ]
+  },
+  "github.copilot.chat.search.keywordSuggestions": true,
+  "window.customTitleBarVisibility": "windowed",
+  "tabnine.experimentalAutoImports": true,
+  "docker.extension.enableComposeLanguageServer": false,
+  "terminal.integrated.allowedLinkSchemes": [
+    "file",
+    "http",
+    "https",
+    "mailto",
+    "vscode",
+    "vscode-insiders",
+    "ms-settings"
+  ],
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.tools.terminal.autoApprove": {
+    "pnpm": true,
+    "docker compose": true
+  },
+  "github.copilot.selectedCompletionModel": "",
+  "vscode-pets.petSize": "small",
+  "vscode-pets.theme": "forest",
+  "vscode-pets.throwBallWithMouse": true,
+  "vim.useSystemClipboard": true,
+  "vim.smartRelativeLine": true,
+  "vim.leader": "<Space>",
+  "vim.hlsearch": true,
+  "vim.highlightedyank.enable": true,
+  "vim.autoindent": true,
+  "vim.surround": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "<leader>"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["H"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["L"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+
+    // splits
+    { "before": ["leader", "v"], "commands": [":vsplit"] },
+    { "before": ["leader", "s"], "commands": [":split"] },
+
+    // panes
+    {
+      "before": ["leader", "h"],
+      "commands": ["workbench.action.focusLeftGroup"]
+    },
+    {
+      "before": ["leader", "j"],
+      "commands": ["workbench.action.focusBelowGroup"]
+    },
+    {
+      "before": ["leader", "k"],
+      "commands": ["workbench.action.focusAboveGroup"]
+    },
+    {
+      "before": ["leader", "l"],
+      "commands": ["workbench.action.focusRightGroup"]
+    },
+    {
+      "before": ["]", "d"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    { "before": ["[", "d"], "commands": ["editor.action.marker.next"] },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.action.showCommands"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["workbench.view.scm"]
+    },
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "a"],
+      "commands": ["workbench.action.toggleAuxiliaryBar"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "commands": ["workbench.action.togglePanel"]
+    },
+    {
+      "before": ["<leader>", "r", "r"],
+      "commands": ["workbench.action.reloadWindow"]
+    },
+    {
+      "before": ["<leader>", "r", "p"],
+      "commands": ["workbench.action.reloadExtensions"]
+    },
+    {
+      "before": ["<leader>", "q"],
+      "commands": [
+        "workbench.action.focusActiveEditorGroup",
+        "workbench.action.closePanel"
+      ]
+    },
+    {
+      "before": ["<leader>", "z"],
+      "commands": ["workbench.action.toggleZenMode"]
+    },
+    {
+      "before": ["<leader>", "o"],
+      "commands": ["workbench.action.openRecent"]
+    }
+  ],
+  "workbench.activityBar.location": "hidden"
+}
