@@ -215,10 +215,7 @@
       "before": ["<leader>", "s"],
       "commands": ["workbench.action.findInFiles"]
     },
-    {
-      "before": ["<leader>", "g"],
-      "commands": ["workbench.view.scm"]
-    },
+
     {
       "before": ["<leader>", "w"],
       "commands": ["workbench.action.files.save"]
@@ -253,6 +250,26 @@
     {
       "before": ["<leader>", "o"],
       "commands": ["workbench.action.openRecent"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": [
+        "workbench.action.toggleMaximizedPanel",
+        "workbench.action.terminal.focus",
+        "workbench.action.terminal.new",
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "clear\u000D" }
+        },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "cls\u000D" }
+        },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "lazygit\u000D" }
+        }
+      ]
     }
   ],
   "workbench.activityBar.location": "hidden",
