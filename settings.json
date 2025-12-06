@@ -160,7 +160,12 @@
   "vim.highlightedyank.enable": true,
   "vim.autoindent": true,
   "vim.surround": true,
+  "vim.matchpairs": "(:),{:},[:]",
   "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["%"],
+      "commands": ["editor.emmet.action.matchTag"]
+    },
     {
       "before": ["<leader>", "<leader>"],
       "commands": ["workbench.action.quickOpen"]
