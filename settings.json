@@ -97,7 +97,8 @@
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
   },
   "workbench.colorCustomizations": {
-    "terminal.background": "#00000000"
+    "editorOverviewRuler.warningForeground": "#fff7004b",
+    "terminal.background": "#0000000a"
   },
   "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
   "window.titleBarStyle": "custom",
@@ -282,5 +283,20 @@
     }
   ],
   "workbench.activityBar.location": "hidden",
-  "workbench.panel.showLabels": false
+  "workbench.panel.showLabels": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "workbench.tree.renderIndentGuides": "none",
+  "explorer.decorations.colors": false,
+  "editor.glyphMargin": false,
+  "window.menuBarVisibility": "toggle",
+  "workbench.layoutControl.enabled": false,
+  "window.title": " ",
+  "git.decorations.enabled": false,
+  "diffEditor.renderIndicators": false,
+  "editor.guides.indentation": false,
+  "scm.diffDecorations": "none",
+  "editor.renderLineHighlight": "none",
+  "editor.selectionHighlight": false,
+  "editor.occurrencesHighlight": "off"
 }
