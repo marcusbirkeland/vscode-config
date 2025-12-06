@@ -284,6 +284,14 @@
     {
       "before": ["<leader>", "a", "y"],
       "commands": ["chatEditor.action.acceptAllEdits"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": [
+        "workbench.action.closeSidebar",
+        "workbench.action.closePanel",
+        "workbench.action.closeAuxiliaryBar"
+      ]
     }
   ],
   "workbench.activityBar.location": "hidden",
