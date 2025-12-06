@@ -217,11 +217,6 @@
       "commands": ["workbench.action.toggleSidebarVisibility"]
     },
     {
-      "before": ["<leader>", "s"],
-      "commands": ["workbench.action.findInFiles"]
-    },
-
-    {
       "before": ["<leader>", "w"],
       "commands": ["workbench.action.files.save"]
     },
@@ -271,7 +266,6 @@
       "before": ["leader", "u", "u"],
       "commands": ["workbench.action.files.revert"]
     },
-
     {
       "before": ["<CR>"],
       "commands": ["editor.action.insertLineBefore"]
@@ -292,6 +286,12 @@
         "workbench.action.closePanel",
         "workbench.action.closeAuxiliaryBar"
       ]
+    }
+  ],
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "s", "t"],
+      "after": ["S", "t"]
     }
   ],
   "workbench.activityBar.location": "hidden",
