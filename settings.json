@@ -151,7 +151,7 @@
   },
   "github.copilot.selectedCompletionModel": "",
   "vscode-pets.petSize": "small",
-  "vscode-pets.theme": "forest",
+  "vscode-pets.theme": "winter",
   "vscode-pets.throwBallWithMouse": true,
   "vim.useSystemClipboard": true,
   "vim.smartRelativeLine": true,
@@ -238,7 +238,7 @@
       "commands": ["workbench.action.reloadWindow"]
     },
     {
-      "before": ["<leader>", "r", "p"],
+      "before": ["<leader>", "r", "e"],
       "commands": ["workbench.action.reloadExtensions"]
     },
     {
