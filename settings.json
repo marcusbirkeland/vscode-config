@@ -164,7 +164,8 @@
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["%"],
-      "commands": ["editor.emmet.action.matchTag"]
+      "commands": ["editor.emmet.action.matchTag"],
+      "when": "editorLangId =~ /html|htm|htmx|vue|typescriptreact|javascriptreact|svelte|xml/"
     },
     {
       "before": ["<leader>", "<leader>"],
