@@ -137,6 +137,7 @@
         },
         "workbench.action.terminal.kill",
         "workbench.action.toggleMaximizedPanel",
+        "workbench.action.togglePanel",
         "workbench.action.focusActiveEditorGroup"
       ]
     },
@@ -154,6 +155,7 @@
         },
         "workbench.action.terminal.kill",
         "workbench.action.toggleMaximizedPanel",
+        "workbench.action.togglePanel",
         "workbench.action.focusActiveEditorGroup"
       ]
     },
