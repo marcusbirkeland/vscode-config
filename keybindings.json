@@ -29,33 +29,6 @@
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+alt+l",
-    "command": "continue.focusContinueInput"
-  },
-  {
-    "key": "ctrl+l",
-    "command": "-continue.focusContinueInput"
-  },
-  {
-    "key": "ctrl+oem_2",
-    "command": "chatEditing.addFileToWorkingSet"
-  },
-  {
-    "key": "ctrl+shift+oem_2",
-    "command": "github.copilot.edits.attachFile"
-  },
-  {
-    "key": "ctrl+oem_6",
-    "command": "github.copilot.acceptCursorPanelSolution",
-    "when": "github.copilot.activated && github.copilot.panelVisible && activeWebviewPanelId == 'GitHub Copilot Suggestions'"
-  },
-  {
-    "key": "ctrl+oem_2",
-    "command": "-github.copilot.acceptCursorPanelSolution",
-    "when": "github.copilot.activated && github.copilot.panelVisible && activeWebviewPanelId == 'GitHub Copilot Suggestions'"
-  },
-  // TERMINAL NAVIGATION
-  {
     "key": "ctrl+shift+j",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
