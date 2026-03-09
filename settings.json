@@ -4,60 +4,61 @@
   "git.pruneOnFetch": true,
   "update.enableWindowsBackgroundUpdates": false,
   "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
   },
   "git.autofetch": true,
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "files.eol": "\n",
   "editor.formatOnPaste": false,
   "editor.tabSize": 2,
   "[rs]": {
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "[sql]": {
     "editor.defaultFormatter": "mtxr.sqltools",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "vs-kubernetes": {
     "vscode-kubernetes.helm-path-windows": "C:\\Users\\MC\\.vs-kubernetes\\tools\\helm\\windows-amd64\\helm.exe",
-    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\MC\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe"
+    "vscode-kubernetes.minikube-path-windows": "C:\\Users\\MC\\.vs-kubernetes\\tools\\minikube\\windows-amd64\\minikube.exe",
   },
   "editor.stickyScroll.enabled": true,
-  "workbench.colorTheme": "Bearded Theme Monokai Black",
+  "workbench.colorTheme": "Bearded Theme Arc",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "security.workspace.trust.untrustedFiles": "open",
   "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
+    "editor.defaultFormatter": "vscode.json-language-features",
   },
   "cmake.configureOnOpen": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "go.toolsManagement.autoUpdate": true,
   "dart.flutterSdkPath": "C:\\Users\\birke\\flutter",
   "[yaml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[markdown]": {
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
   },
   "[java]": {
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": "never"
+      "source.organizeImports": "never",
     },
-    "editor.defaultFormatter": "mngrm3a.vscode-google-java-formatter"
+    "editor.defaultFormatter": "mngrm3a.vscode-google-java-formatter",
   },
 
   "java.format.settings.url": "https://raw.githubusercontent.com/mbbirkel/java-style-google/refs/heads/main/GoogleStyle.xml",
   "java.format.settings.profile": "GoogleStyle",
   "java.completion.importOrder": ["com", "#"],
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "never"
+    "source.organizeImports": "never",
   },
   "zig.path": "c:\\Users\\MC\\AppData\\Roaming\\Code\\User\\globalStorage\\ziglang.vscode-zig\\zig_install\\zig.exe",
   "zig.zls.path": "c:\\Users\\MC\\AppData\\Roaming\\Code\\User\\globalStorage\\ziglang.vscode-zig\\zls_install\\zls.exe",
@@ -66,7 +67,8 @@
     "*": false,
     "plaintext": false,
     "markdown": false,
-    "scminput": false
+    "scminput": false,
+    "go": false,
   },
   "redhat.telemetry.enabled": false,
   "git.confirmSync": false,
@@ -76,17 +78,17 @@
   "editor.mouseWheelScrollSensitivity": 2,
   "github.copilot.editor.enableAutoCompletions": true,
   "[svelte]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "svelte.plugin.svelte.format.config.printWidth": 90,
   "svelte.plugin.svelte.format.config.singleQuote": true,
   "remote.portsAttributes": {
     "3000": {
-      "protocol": "https"
-    }
+      "protocol": "https",
+    },
   },
   "workbench.editorAssociations": {
-    "git-rebase-todo": "gitlens.rebase"
+    "git-rebase-todo": "gitlens.rebase",
   },
   "github.copilot.chat.generateTests.codeLens": true,
   "github.copilot.chat.search.semanticTextResults": true,
@@ -94,11 +96,11 @@
   "github.copilot.chat.inlineChatCompletionTrigger.enabled": true,
   "Notes.notesLocation": "C:\\Users\\birke\\Documents\\notes",
   "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+    "editor.defaultFormatter": "rust-lang.rust-analyzer",
   },
   "workbench.colorCustomizations": {
     "editorOverviewRuler.warningForeground": "#fff7004b",
-    "terminal.background": "#0000000a"
+    "terminal.background": "#0000000a",
   },
   "workbench.settings.applyToAllProfiles": ["workbench.colorCustomizations"],
   "window.titleBarStyle": "custom",
@@ -121,13 +123,12 @@
   "inlineChat.hideOnRequest": true,
   "git.openRepositoryInParentFolders": "never",
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
-  "editor.formatOnSave": true,
   "yaml.schemas": {
     "c:\\Users\\birke\\.vscode\\extensions\\continue.continue-1.0.10-win32-x64\\config-yaml-schema.json": [
-      ".continue/**/*.yaml"
-    ]
+      ".continue/**/*.yaml",
+    ],
   },
   "github.copilot.chat.search.keywordSuggestions": true,
   "window.customTitleBarVisibility": "windowed",
@@ -140,14 +141,14 @@
     "mailto",
     "vscode",
     "vscode-insiders",
-    "ms-settings"
+    "ms-settings",
   ],
   "[vue]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "chat.tools.terminal.autoApprove": {
     "pnpm": true,
-    "docker compose": true
+    "docker compose": true,
   },
   "github.copilot.selectedCompletionModel": "",
   "vscode-pets.petSize": "small",
@@ -161,101 +162,116 @@
   "vim.autoindent": true,
   "vim.surround": true,
   "vim.matchpairs": "(:),{:},[:]",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-z>": false,
+    "<C-y>": false,
+    "<C-f>": false,
+    "<C-h>": false,
+    "<C-w>": false,
+  },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": ["%"],
-      "commands": ["editor.emmet.action.matchTag"],
-      "when": "editorLangId =~ /html|htm|htmx|vue|typescriptreact|javascriptreact|svelte|xml/"
+      "before": ["<leader>", "<leader>"],
+      "commands": ["workbench.action.quickOpen"],
     },
     {
-      "before": ["<leader>", "<leader>"],
-      "commands": ["workbench.action.quickOpen"]
+      "before": ["<leader>", "%"],
+      "commands": ["editor.emmet.action.matchTag"],
     },
     {
       "before": ["H"],
-      "commands": ["workbench.action.previousEditor"]
+      "commands": ["workbench.action.previousEditor"],
     },
     {
       "before": ["L"],
-      "commands": ["workbench.action.nextEditor"]
+      "commands": ["workbench.action.nextEditor"],
     },
     {
       "before": ["K"],
-      "commands": ["editor.action.showHover"]
+      "commands": ["editor.action.showHover"],
     },
     {
       "before": ["<leader>", "x"],
-      "commands": ["workbench.action.closeActiveEditor"]
+      "commands": ["workbench.action.closeActiveEditor"],
     },
-
-    // splits
-    { "before": ["leader", "v"], "commands": [":vsplit"] },
-    { "before": ["leader", "s"], "commands": [":split"] },
-
-    // panes
+    {
+      "before": ["leader", "v"],
+      "commands": [":vsplit"],
+    },
+    {
+      "before": ["leader", "s"],
+      "commands": [":split"],
+    },
     {
       "before": ["leader", "h"],
-      "commands": ["workbench.action.focusLeftGroup"]
+      "commands": ["workbench.action.focusLeftGroup"],
     },
     {
       "before": ["leader", "j"],
-      "commands": ["workbench.action.focusBelowGroup"]
+      "commands": ["workbench.action.focusBelowGroup"],
     },
     {
       "before": ["leader", "k"],
-      "commands": ["workbench.action.focusAboveGroup"]
+      "commands": ["workbench.action.focusAboveGroup"],
     },
     {
       "before": ["leader", "l"],
-      "commands": ["workbench.action.focusRightGroup"]
+      "commands": ["workbench.action.focusRightGroup"],
     },
     {
       "before": ["]", "d"],
-      "commands": ["editor.action.marker.prev"]
+      "commands": ["editor.action.marker.prev"],
     },
-    { "before": ["[", "d"], "commands": ["editor.action.marker.next"] },
+    {
+      "before": ["[", "d"],
+      "commands": ["editor.action.marker.next"],
+    },
     {
       "before": ["<leader>", "p"],
-      "commands": ["workbench.action.showCommands"]
+      "commands": ["workbench.action.showCommands"],
     },
     {
       "before": ["<leader>", "e"],
-      "commands": ["workbench.action.toggleSidebarVisibility"]
+      "commands": ["workbench.action.toggleSidebarVisibility"],
     },
     {
       "before": ["<leader>", "w"],
-      "commands": ["workbench.action.files.save"]
+      "commands": ["workbench.action.files.save"],
     },
     {
       "before": ["<leader>", "a", "a"],
-      "commands": ["workbench.action.toggleAuxiliaryBar"]
+      "commands": ["workbench.action.toggleAuxiliaryBar"],
     },
     {
       "before": ["<leader>", "k"],
-      "commands": ["workbench.action.togglePanel"]
+      "commands": ["workbench.action.togglePanel"],
     },
     {
       "before": ["<leader>", "r", "r"],
-      "commands": ["workbench.action.reloadWindow"]
+      "commands": ["workbench.action.reloadWindow"],
     },
     {
       "before": ["<leader>", "r", "e"],
-      "commands": ["workbench.action.reloadExtensions"]
+      "commands": ["workbench.action.reloadExtensions"],
     },
     {
       "before": ["<leader>", "q"],
       "commands": [
         "workbench.action.focusActiveEditorGroup",
-        "workbench.action.closePanel"
-      ]
+        "workbench.action.closePanel",
+      ],
     },
     {
       "before": ["<leader>", "z"],
-      "commands": ["workbench.action.toggleZenMode"]
+      "commands": ["workbench.action.toggleZenMode"],
     },
     {
       "before": ["<leader>", "o"],
-      "commands": ["workbench.action.openRecent"]
+      "commands": ["workbench.action.openRecent"],
     },
     {
       "before": ["<leader>", "g"],
@@ -264,46 +280,46 @@
         "workbench.action.terminal.new",
         {
           "command": "workbench.action.terminal.sendSequence",
-          "args": { "text": "lazygit\u000D" }
-        }
-      ]
+          "args": {
+            "text": "lazygit\r",
+          },
+        },
+      ],
     },
     {
       "before": ["leader", "u", "u"],
-      "commands": ["workbench.action.files.revert"]
+      "commands": ["workbench.action.files.revert"],
     },
     {
       "before": ["<CR>"],
-      "commands": ["editor.action.insertLineBefore"]
+      "commands": ["editor.action.insertLineBefore"],
     },
-
     {
       "before": ["S-<CR>"],
-      "commands": ["editor.action.insertLineAfter"]
+      "commands": ["editor.action.insertLineAfter"],
     },
     {
       "before": ["<leader>", "a", "y"],
-      "commands": ["chatEditor.action.acceptAllEdits"]
+      "commands": ["chatEditor.action.acceptAllEdits"],
     },
     {
       "before": ["<leader>", "n"],
       "commands": [
         "workbench.action.closeSidebar",
         "workbench.action.closePanel",
-        "workbench.action.closeAuxiliaryBar"
-      ]
-    }
+        "workbench.action.closeAuxiliaryBar",
+      ],
+    },
   ],
   "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": ["<leader>", "s", "t"],
-      "after": ["S", "t"]
-    }
+      "after": ["S", "t"],
+    },
   ],
   "workbench.activityBar.location": "hidden",
   "workbench.panel.showLabels": false,
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
   "workbench.tree.renderIndentGuides": "none",
   "explorer.decorations.colors": false,
   "editor.glyphMargin": false,
@@ -316,5 +332,19 @@
   "scm.diffDecorations": "none",
   "editor.renderLineHighlight": "none",
   "editor.selectionHighlight": false,
-  "editor.occurrencesHighlight": "off"
+  "editor.occurrencesHighlight": "off",
+  "yaml.format.bracketSpacing": false,
+  "terminal.integrated.shellIntegration.enabled": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "chat.viewSessions.enabled": false,
+  "chat.viewTitle.enabled": false,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "editor.semanticHighlighting.enabled": false,
+  "[liquid]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "editor.formatOnSave": true,
+  "github.copilot.advanced": {
+    "authPermissions": "minimal"
+  },
 }
