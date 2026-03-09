@@ -1,116 +1,122 @@
 [
   {
     "key": "ctrl+alt+left",
-    "command": "-workbench.action.moveEditorToPreviousGroup"
+    "command": "-workbench.action.moveEditorToPreviousGroup",
   },
   {
     "key": "ctrl+alt+left",
     "command": "cursorHome",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
   },
   {
     "key": "home",
     "command": "-cursorHome",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
+  },
+  {
+    "key": "ctrl+alt+l",
+    "command": "workbench.action.nextEditor",
+  },
+  {
+    "key": "ctrl+alt+h",
+    "command": "workbench.action.previousEditor",
   },
 
   {
     "key": "ctrl+alt+right",
-    "command": "-workbench.action.moveEditorToNextGroup"
+    "command": "-workbench.action.moveEditorToNextGroup",
   },
   {
     "key": "ctrl+alt+right",
     "command": "cursorEnd",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
   },
   {
     "key": "end",
     "command": "-cursorEnd",
-    "when": "textInputFocus"
+    "when": "textInputFocus",
   },
   {
     "key": "ctrl+shift+j",
     "command": "workbench.action.terminal.focusNext",
-    "when": "terminalFocus"
+    "when": "terminalFocus",
   },
 
   {
+    "key": "ctrl+shift+;",
+    "command": "workbench.action.togglePanel",
+  },
+  {
     "key": "ctrl+shift+k",
-    "command": "workbench.action.togglePanel"
+    "command": "workbench.action.togglePanel",
   },
   {
     "key": "ctrl+shift+n",
-    "command": "workbench.action.terminal.new",
-    "when": "terminalFocus"
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.terminal.new",
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "cd '${fileDirname}'\u000D" },
+        },
+      ],
+    },
+    "when": "terminalFocus",
   },
   {
     "key": "ctrl+shift+d",
     "command": "workbench.action.terminal.kill",
-    "when": "terminalFocus"
+    "when": "terminalFocus",
   },
   // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
-  },
-  {
-    "command": "workbench.files.action.focusFilesExplorer",
     "key": "ctrl+e",
-    "when": "editorTextFocus"
-  },
-  // FILE TREE
-  {
-    "command": "workbench.action.toggleSidebarVisibility",
-    "key": "ctrl+e"
-  },
-  {
-    "command": "workbench.files.action.focusFilesExplorer",
-    "key": "ctrl+e",
-    "when": "editorTextFocus"
   },
   {
     "key": "n",
     "command": "explorer.newFile",
-    "when": "filesExplorerFocus && !inputFocus"
+    "when": "filesExplorerFocus && !inputFocus",
   },
   {
     "command": "renameFile",
     "key": "r",
-    "when": "filesExplorerFocus && !inputFocus"
+    "when": "filesExplorerFocus && !inputFocus",
   },
   {
     "key": "shift+n",
     "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
+    "when": "explorerViewletFocus",
   },
 
   {
     "command": "deleteFile",
     "key": "d",
-    "when": "filesExplorerFocus && !inputFocus"
+    "when": "filesExplorerFocus && !inputFocus",
   },
 
   {
     "key": "ctrl+alt+z",
-    "command": "workbench.action.toggleZenMode"
+    "command": "workbench.action.toggleZenMode",
   },
   {
     "key": "ctrl+shift+i",
-    "command": "workbench.action.toggleAuxiliaryBar"
+    "command": "workbench.action.toggleAuxiliaryBar",
   },
   {
     "key": "ctrl+shift+i",
     "command": "workbench.action.chat.open",
-    "when": "!auxiliaryBarVisible"
+    "when": "!auxiliaryBarVisible",
   },
   {
     "key": "ctrl+shift+h",
-    "command": "workbench.view.scm"
+    "command": "workbench.view.scm",
   },
   // SOURCE CONTROL
   {
     "key": "ctrl+shift+9",
-    "command": "git.sync"
+    "command": "git.sync",
   },
   {
     "key": "ctrl+shift+g",
@@ -121,10 +127,14 @@
         "workbench.action.terminal.new",
         {
           "command": "workbench.action.terminal.sendSequence",
-          "args": { "text": "lazygit\u000D" }
-        }
-      ]
-    }
+          "args": { "text": "cd '${fileDirname}'\u000D" },
+        },
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": { "text": "lazygit\u000D" },
+        },
+      ],
+    },
   },
   {
     "key": "ctrl+shift+g",
@@ -133,15 +143,15 @@
       "commands": [
         {
           "command": "workbench.action.terminal.sendSequence",
-          "args": { "text": "q" }
+          "args": { "text": "q" },
         },
         "workbench.action.terminal.kill",
         "workbench.action.toggleMaximizedPanel",
         "workbench.action.togglePanel",
-        "workbench.action.focusActiveEditorGroup"
-      ]
+        "workbench.action.focusActiveEditorGroup",
+      ],
     },
-    "when": "panelMaximized"
+    "when": "panelMaximized",
   },
 
   {
@@ -151,19 +161,19 @@
       "commands": [
         {
           "command": "workbench.action.terminal.sendSequence",
-          "args": { "text": "q" }
+          "args": { "text": "q" },
         },
         "workbench.action.terminal.kill",
         "workbench.action.toggleMaximizedPanel",
         "workbench.action.togglePanel",
-        "workbench.action.focusActiveEditorGroup"
-      ]
+        "workbench.action.focusActiveEditorGroup",
+      ],
     },
-    "when": "panelMaximized"
+    "when": "panelMaximized",
   },
   {
     "key": "ctrl+shift+m",
-    "command": "workbench.action.toggleMaximizedPanel"
+    "command": "workbench.action.toggleMaximizedPanel",
   },
   {
     "key": "ctrl+shift+n",
@@ -172,17 +182,17 @@
       "commands": [
         "workbench.action.closeSidebar",
         "workbench.action.closePanel",
-        "workbench.action.closeAuxiliaryBar"
-      ]
-    }
+        "workbench.action.closeAuxiliaryBar",
+      ],
+    },
   },
   {
     "key": "ctrl+shift+1",
-    "command": "workbench.action.closeOtherEditors"
+    "command": "workbench.action.closeOtherEditors",
   },
   {
     "key": "ctrl+shift+f  ",
     "command": "workbench.action.focusActiveEditorGroup",
-    "when": "searchViewletFocus"
-  }
+    "when": "searchViewletFocus",
+  },
 ]
